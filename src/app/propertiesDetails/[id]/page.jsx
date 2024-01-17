@@ -12,7 +12,7 @@ import Slider from '@/components/properties/Slider'
 import Link from 'next/link'
 
 
-const page = ({ params }) => {
+const PropertiesDetails = ({ params }) => {
 
     const [propertie] = properties.filter(proper => proper.id == params.id)
 
@@ -164,4 +164,4 @@ const page = ({ params }) => {
     )
 }
 
-export default page
+export default PropertiesDetails

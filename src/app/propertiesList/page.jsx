@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 import properties from '/public/json/propertiesJSON'
 import PropertiesCard from '@/components/properties/PropertiesCard'
 
-const page = () => {
+const PropertiesList = () => {
 
     const perPage = 6;
     const [totalPages, setTotalPages] = useState(1);
@@ -167,4 +167,4 @@ const page = () => {
     )
 }
 
-export default page
+export default PropertiesList

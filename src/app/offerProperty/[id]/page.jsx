@@ -5,7 +5,7 @@ import NumberInput from "@/components/layout/NumberInput";
 import Footer from "@/components/layout/Footer";
 
 
-export default function offerProperty({ params }) {
+export default function OfferProperty({ params }) {
 
     const [propertie] = properties.filter(proper => proper.id == params.id)
 
