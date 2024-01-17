@@ -127,7 +127,7 @@ const PropertiesList = () => {
                     <div className="row">
                         {
                             propertiesList.map((propertie, i) => (
-                                <div className="col-lg-4">
+                                <div className="col-lg-4" key={i}>
                                     <PropertiesCard
                                         key={i}
                                         title={propertie.title}

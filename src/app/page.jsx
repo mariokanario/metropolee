@@ -1,4 +1,4 @@
-import './home.css'
+// import './home.css'
 import Properties from '@/components/home/Properties'
 import Nav from '@/components/layout/Nav';
 import Header from '@/components/layout/Header';

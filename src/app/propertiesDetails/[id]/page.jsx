@@ -2,12 +2,10 @@ import Footer from '@/components/layout/Footer'
 import Nav from '@/components/layout/Nav'
 import React from 'react'
 import { BiRightArrowAlt, BiShareAlt } from 'react-icons/bi'
-import { IoPersonAddOutline, IoPersonOutline } from 'react-icons/io5'
 import { LuBath, LuBed } from "react-icons/lu";
 import { TbCarGarage } from "react-icons/tb";
 import { RxSize } from "react-icons/rx"
 import properties from '/public/json/propertiesJSON'
-import { useRouter } from 'next/navigation'
 import Slider from '@/components/properties/Slider'
 import Link from 'next/link'
 
@@ -85,7 +83,7 @@ const PropertiesDetails = ({ params }) => {
                                     <span className="process-bar">Porcentaje de recolecta</span>
                                     <div id="bar1" className="barfiller">
                                         <div className="tipWrap d-inline">
-                                            <span className="tip" style={{ left: "88%", transition: "left 3s ease-in-out 0s;" }}>79%</span>
+                                            <span className="tip" style={{ left: "88%", transition: "left 3s ease-in-out 0s" }}>79%</span>
                                         </div>
                                         <span className="fill" data-percentage="60" style={{ background: "rgb(22, 181, 151)", width: "88%", transition: "width 3s ease-in-out 0s" }}></span>
                                     </div>

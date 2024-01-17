@@ -50,9 +50,9 @@ const Properties = () => {
                             properties.slice(0, 6).map((propertie, i) => (
 
                                 <div className="col-lg-4" key={i}>
-                                    <SwiperSlide>
+                                    <SwiperSlide key={i}>
                                         <PropertiesCard
-                                            
+
                                             title={propertie.title}
                                             price={propertie.price}
                                             image={propertie.image}
